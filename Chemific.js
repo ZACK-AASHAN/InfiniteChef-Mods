@@ -22,3 +22,31 @@ See [example_mod.js](https://github.com/R74nCom/InfiniteChef-Mods/tree/main/exam
 To test your mod, you can usually copy-paste the entire script into your browser's console. Usually this is done by pressing F12 and going to the 'Console' tab.
 
 Create a fork of [InfiniteChef-Mods](https://github.com/R74nCom/InfiniteChef-Mods) on GitHub, add or edit your mod file, and make a pull request to submit it for review.
+
+addIngredient("Sperm",{
+    type:"Worm",
+    color:"#FFFFFF",
+    keywords:"Sperm",
+	adj:"Spermy"
+});
+
+addIngredient("Sperm Milk",{
+    type:"thick_liquid",
+    color:"#FFFFFF",
+    keywords:"Sperm_Milk",
+	adj:"creamy"
+});
+
+addIngredient("Acid",{
+    type:"thick_liquid",
+    color:"#005000",
+    keywords:"Acid",
+	adj:"Melty"
+});
+
+addIngredient("Magma",{
+    type:"liquid",
+    color:"#ffA500",
+    keywords:"magma",
+	adj:"firey"
+});
